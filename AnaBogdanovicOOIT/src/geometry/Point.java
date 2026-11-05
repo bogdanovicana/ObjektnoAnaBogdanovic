@@ -1,13 +1,20 @@
 package geometry;
 
-public class Point() {
+public class Point {
 
 
 private int x;
 private int y;
 private boolean selected;
 
-public int getx() {
+public double distance (Point p) {
+	double dx = x - p.getX();
+	double dy = y - p.getY();
+	return Math.sqrt(dx*dx + dy*dy);
+	
+}
+
+public int getX() {
 		return x;
 }
 public int getY() {
