@@ -6,4 +6,5 @@
  *
  */
 module AnaBogdanovicOOIT {
+	requires java.desktop;
 }
